@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--black-color: #000000;
+    --white-color: #ffffff;
+	--offwhite-color: #d6d6d6;
+	--first-color: #FF0501;
+	--second-color: #FD7902;
+}
+
+body {
+	font-family: "Raleway", sans-serif !important;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+}
+
+p {
+	font-weight: 500;
+}
+
+/* Top bar */
+#top_nav {
+    padding: 8px;
+}
+#top_nav a {
+    font-weight: 600;
+	color: var(--black-color);
+}
+
+/* Main Navbar */
+.navbar {
+    position: sticky;
+    top: 10px;
+    background-color: var(--white-color);
+    z-index: 999;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar_icons_item {
+    flex-direction: row;
+}
+.navbar img {
+    height: auto;
+    width: 150px;
+}
+.nav-link {
+	color: var(--offwhite-color);
+	font-weight: 500;
+	font-size: 15px;
+}
+.nav-link:hover {
+	color: var(--second-color) !important;
+}
+.navbar-nav .nav-link.active {
+	color: var(--white-color);
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+	.navbar {
+		margin-left: 5px;
+		margin-right: 5px;
+		top: 5px;
+	}
+	.navbar img {
+		height: auto;
+		width: 120px;
+	}
+	.navbar-toggler {
+		background-color: var(--white-color);
+	}
+	.offcanvas {
+		background-color: var(--black-color);
+		overflow: scroll;
+	}
+	.offcanvas .navbar-nav {
+		padding: 20px;
+	}
+}
+
+/* hero section */
+#hero_section {
+	padding: 40px 0;
+	/* background: var(--black-color); */
+	margin-top: 30px;
+}
+#hero_section img {
+	width: 100%;
+}
+
+/* Second Section */
+#second_section {
+	padding: 40px 0;
+	background-color: var(--black-color);
+}
+#second_section h2 {
+	color: var(--second-color);
+	font-weight: 600;
+}
+#second_section p {
+	color: var(--white-color);
+}
+
+
+/* Third Section */
+#third_section {
+	padding: 40px 0;
+	background-color: var(--black-color);
+}
+#third_section img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+#third_section h2 {
+	color: var(--second-color);
+	font-weight: 600;
+}
+#third_section ul li {
+	margin: 8px 0;
+	color: var(--white-color);
+}
+#third_section ul li i {
+	color: var(--second-color);
+}
+
+
+/* Lead Form Section */
+
+#lead_form {
+	padding: 40px 0;
+}
+#lead_form input {
+	margin-bottom: 15px;
+}
+#lead_form_side {
+	background-color: #111517;
+	padding: 30px;
+	border-radius: 10px;
+}
+#lead_form h2 {
+	font-weight: 600;
+}
+#lead_form_side label {
+	color: #ffffff;
+}
+#lead_form_side .btn {
+	background: linear-gradient(rgb(255, 0, 0), rgb(255, 120, 42));
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	font-weight: 600;
+} 
+#lead_form_side .btn:hover {
+	background: linear-gradient( rgb(255, 120, 42), rgb(255, 0, 0));
+}
+
+/* Lead Form Section */
+
+
+
+
+
+/* Footer */
+footer {
+	background-color: var(--black-color);
+	padding: 50px 0;
+}
+footer img {
+	width: 120px;
+	height: auto;
+	margin-bottom: 30px;
+}
+footer hr {
+	margin: 30px 0;
+	color: var(--white-color);
+}
+footer p {
+	color: var(--white-color);
+}
+footer .btn {
+	background: linear-gradient(rgb(255, 0, 0), rgb(255, 120, 42));
+	color: #ffffff;
+	font-weight: 600;
+}
+footer .btn:hover {
+	background: linear-gradient( rgb(255, 120, 42), rgb(255, 0, 0));
+	color: var(--white-color);
+}
+footer .footer_menu_1 li {
+	margin-bottom: 10px;
+}
+footer .footer_menu_1 li a:hover {
+	color: var(--second-color);
+}
+footer .footer_menu_2 li {
+	margin-bottom: 10px;
+}
+footer .footer_menu_2 li a:hover {
+	color: var(--second-color);
+}
+footer .footer_contact_info li {
+	margin-bottom: 10px;
+}
+footer .footer_contact_info li a:hover {
+	color: var(--second-color);
+}
+footer a {
+	color: var(--white-color);
+}
+footer .footer_social_media li {
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+footer .footer_social_media li a {
+	color: var(--white-color);
+	font-size: 25px;
+}
+footer .footer_social_media li a:hover {
+	color: var(--second-color);
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+	footer .btn {
+		margin-bottom: 30px;
+	}
+	footer .footer_menu_1 {
+		margin-bottom: 30px;
+	}
+	footer .footer_menu_2 {
+		margin-bottom: 30px;
+	}
+}
