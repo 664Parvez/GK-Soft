@@ -92,8 +92,6 @@ p {
 /* hero section */
 #hero_section {
 	padding: 40px 0;
-	/* background: var(--black-color); */
-	margin-top: 30px;
 }
 #hero_section img {
 	width: 100%;
@@ -112,6 +110,19 @@ p {
 #hero_section p {
 	font-size: 20px;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+	#hero_section {
+		padding-top: 20px;
+	}
+	#hero_section h1 {
+		font-size: 30px;
+	}
+	#hero_section h1 span {
+		font-size: 80px;
+	}
+}
+
 
 /* Second Section */
 #second_section {
@@ -155,6 +166,15 @@ p {
 	color: var(--second-color);
 }
 
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+	#third_section h2 {
+		font-size: 40px;
+	}
+	#third_section img {
+		margin-bottom: 20px;
+	}
+}
+
 
 /* Lead Form Section */
 
@@ -189,7 +209,15 @@ p {
 /* Lead Form Section */
 
 
-
+/* Forth Section */
+#forth_section {
+	padding: 40px 0;
+}
+#forth_section h2 {
+	font-size: 40px;
+	margin-bottom: 30px;
+	font-weight: 600;
+}
 
 
 /* Footer */
