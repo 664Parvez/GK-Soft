@@ -34,6 +34,16 @@ p {
     font-weight: 600;
 	color: var(--black-color);
 }
+.top_nav_social_icon .top_social_media li {
+	display: inline-block;
+	padding-right: 15px;
+}
+.top_nav_social_icon .top_social_media li a {
+	font-size: 17px;
+}
+.top_nav_social_icon .top_social_media li a i:hover {
+	color: var(--second-color);
+}
 
 /* Main Navbar */
 .navbar {
@@ -69,6 +79,9 @@ p {
 
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
+	.top_nav_social_icon {
+		display: none;
+	}
 	.navbar {
 		margin-left: 5px;
 		margin-right: 5px;
