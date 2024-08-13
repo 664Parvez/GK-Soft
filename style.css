@@ -232,6 +232,67 @@ p {
 	margin-bottom: 30px;
 	font-weight: 600;
 }
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+	#forth_section h2 {
+		font-size: 30px;
+	}
+}
+@media only screen and (min-width: 800px) and (max-width: 1230px) {
+	#forth_section h2 {
+		font-size: 30px;
+	}
+}
+
+/* online section */
+#online_section {
+	padding: 40px 0;
+}
+#online_section h2 {
+	font-size: 40px;
+	margin-bottom: 30px;
+	font-weight: 600;
+}
+#online_section i {
+	font-size: 30px;
+	color: var(--second-color);
+	margin-bottom: 20px;
+}
+.online_sec_border {
+	border: 1px solid var(--black-color);
+	padding: 20px 10px;
+	border-radius: 10px;
+}
+.online_sec_border P {
+	margin-bottom: 0;
+}
+
+
+/* Confidence */
+#confidence_section {
+	padding: 40px 0;
+	background-color: var(--black-color);
+}
+#confidence_section h2 {
+	color: var(--white-color);
+	font-size: 40px;
+	font-weight: 600;
+}
+#confidence_section p {
+	color: var(--white-color);
+}
+#confidence_section h3 {
+	color: var(--second-color);
+}
+#confidence_section hr {
+	color: var(--white-color);
+	margin: 30px 0;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+	#confidence_section h2 {
+		font-size: 30px;
+	}
+}
 
 
 /* Fifth Section */
@@ -256,7 +317,24 @@ p {
 	color: var(--first-color);
 }
 #fifth_section .card {
-	height: 370px;
+	height: 380px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+	#fifth_section h2 {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1030px) {
+	#fifth_section .card {
+		height: 350px;
+	}
+}
+@media only screen and (min-width: 1350px) and (max-width: 1500px) {
+	#fifth_section .card {
+		height: 420px;
+	}
 }
 
 /* Sixth Section */
@@ -275,12 +353,24 @@ p {
 	font-weight: 600;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+	#sixth_section h2 {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1230px) {
+	#sixth_section h4 {
+		font-size: 18px;
+	}
+}
 
 /* Trial Section */
 #trial_section {
 	padding: 40px 0;
 	background-color: var(--black-color);
 	margin-bottom: 30px;
+	margin-top: 30px;
 }
 #trial_section h2 {
 	color: var(--white-color);
