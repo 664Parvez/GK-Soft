@@ -352,6 +352,9 @@ p {
 	font-size: 22px;
 	font-weight: 600;
 }
+#sixth_section img {
+	cursor: pointer;
+}
 
 #popup {
 	position: fixed;
