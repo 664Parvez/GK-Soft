@@ -126,6 +126,42 @@ p {
 	}
 }
 
+/* First Section */
+#first_section {
+	padding: 40px 0;
+}
+#first_section img {
+	height: auto;
+	width: 100%;
+}
+#first_section #first_title {
+	font-weight: 700;
+}
+#first_section #collect_text {
+	color: var(--first-color);
+	margin: 20px 0;
+	font-weight: 700;
+}
+#first_section #call_text {
+	color: var(--first-color);
+	font-size: 20px;
+	font-weight: 600;
+}
+#first_section #first_number_text a {
+	font-weight: 700;
+	color: var(--black-color);
+}
+#first_section #first_email_text a {
+	font-weight: 700;
+	color: var(--black-color);
+}
+#first_section #first_para span {
+	font-weight: 700;
+	color: var(--first-color);
+	font-size: 30px;
+}
+
+
 /* hero section */
 #hero_section {
 	padding: 40px 0;
