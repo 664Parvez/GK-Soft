@@ -258,6 +258,10 @@ p {
 #lead_form input {
 	margin-bottom: 15px;
 }
+#lead_form input::placeholder {
+	opacity: .6;
+	font-size: 16px;
+}
 #lead_form_side {
 	background-color: var(--white-color);
 	padding: 30px;
@@ -272,6 +276,8 @@ p {
 }
 #lead_form_side label {
 	color: var(--black-color);
+	font-size: 18px;
+	font-weight: 600;
 }
 #lead_form_side .btn {
 	background: linear-gradient(rgb(255, 0, 0), rgb(255, 120, 42));
