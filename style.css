@@ -253,20 +253,25 @@ p {
 
 #lead_form {
 	padding: 40px 0;
+	background-color: var(--black-color);
 }
 #lead_form input {
 	margin-bottom: 15px;
 }
 #lead_form_side {
-	background-color: #111517;
+	background-color: var(--white-color);
 	padding: 30px;
 	border-radius: 10px;
 }
 #lead_form h2 {
 	font-weight: 600;
+	color: var(--white-color);
+}
+#lead_form p {
+	color: var(--white-color);
 }
 #lead_form_side label {
-	color: #ffffff;
+	color: var(--black-color);
 }
 #lead_form_side .btn {
 	background: linear-gradient(rgb(255, 0, 0), rgb(255, 120, 42));
