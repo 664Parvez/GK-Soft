@@ -548,9 +548,11 @@ p {
 }
 .about_first_section img {
 	width: 100%;
+	height: auto;
 }
 .about_second_section img {
 	width: 100%;
+	height: auto;
 }
 #bred_items li {
 	display: inline-block;
@@ -870,6 +872,11 @@ p {
     color: var(--first-color);
     font-size: 20px;
 }
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+	.side_more_news {
+		margin-top: 30px;
+	}
+}
 
 /* Single Blog */
 
@@ -901,6 +908,11 @@ p {
 	background-color: var(--first-color);
 	color: var(--white-color);
 	font-weight: 600;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+	#contact_person {
+		margin-top: 30px;
+	}
 }
 /* Contact Us */
 
