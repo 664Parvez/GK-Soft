@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
 	--black-color: #000000;
@@ -9,7 +9,7 @@
 }
 
 body {
-	font-family: "Raleway", sans-serif !important;
+	font-family: "Kanit", sans-serif !important;
 }
 
 ul {
@@ -22,7 +22,7 @@ a {
 }
 
 p {
-	font-weight: 500;
+	font-weight: 400;
 }
 
 /* Top bar */
@@ -31,7 +31,7 @@ p {
 }
 #top_nav a {
 	font-size: 17px;
-    font-weight: 600;
+    font-weight: 500;
 	color: var(--black-color);
 }
 .top_nav_social_icon .top_social_media li {
@@ -138,28 +138,28 @@ p {
 	width: 100%;
 }
 #first_section #first_title {
-	font-weight: 700;
+	font-weight: 500;
 }
 #first_section #collect_text {
 	color: var(--first-color);
 	margin: 20px 0;
-	font-weight: 700;
+	font-weight: 500;
 }
 #first_section #call_text {
 	color: var(--first-color);
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 500;
 }
 #first_section #first_number_text a {
-	font-weight: 700;
+	font-weight: 500;
 	color: var(--black-color);
 }
 #first_section #first_email_text a {
-	font-weight: 700;
+	font-weight: 500;
 	color: var(--black-color);
 }
 #first_section #first_para span {
-	font-weight: 700;
+	font-weight: 500;
 	color: var(--first-color);
 	font-size: 30px;
 }
@@ -176,14 +176,15 @@ p {
 }
 #hero_section h1 {
 	font-size: 50px;
-	font-weight: 700;
+	font-weight: 500;
+	line-height: 50px;
 }
 #hero_section h1 span {
 	font-size: 120px;
 	color: var(--first-color);
 }
 #hero_section h3 {
-	font-weight: 600;
+	font-weight: 500;
 }
 #hero_section p {
 	font-size: 20px;
@@ -195,6 +196,7 @@ p {
 	}
 	#hero_section h1 {
 		font-size: 30px;
+		line-height: 1;
 	}
 	#hero_section h1 span {
 		font-size: 80px;
@@ -209,7 +211,7 @@ p {
 }
 #second_section h2 {
 	color: var(--second-color);
-	font-weight: 600;
+	font-weight: 500;
 }
 #second_section p {
 	color: var(--white-color);
@@ -229,12 +231,12 @@ p {
 #third_section h2 {
 	font-size: 60px;
 	margin-bottom: 30px;
-	font-weight: 600;
+	font-weight: 500;
 	color: var(--white-color);
 }
 #third_section h3 {
 	color: var(--second-color);
-	font-weight: 600;
+	font-weight: 500;
 }
 #third_section ul li {
 	margin: 10px 0;
@@ -273,7 +275,7 @@ p {
 	border-radius: 10px;
 }
 #lead_form h2 {
-	font-weight: 600;
+	font-weight: 500;
 	color: var(--white-color);
 }
 #lead_form p {
@@ -282,14 +284,14 @@ p {
 #lead_form_side label {
 	color: var(--black-color);
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 500;
 }
 #lead_form_side .btn {
 	background: linear-gradient(rgb(255, 0, 0), rgb(255, 120, 42));
 	color: #ffffff;
 	padding: 10px 20px;
 	border: none;
-	font-weight: 600;
+	font-weight: 500;
 } 
 #lead_form_side .btn:hover {
 	background: linear-gradient( rgb(255, 120, 42), rgb(255, 0, 0));
@@ -305,7 +307,7 @@ p {
 #forth_section h2 {
 	font-size: 40px;
 	margin-bottom: 30px;
-	font-weight: 600;
+	font-weight: 500;
 }
 @media only screen and (min-width: 300px) and (max-width: 500px) {
 	#forth_section h2 {
@@ -326,7 +328,7 @@ p {
 #online_section h2 {
 	font-size: 40px;
 	margin-bottom: 30px;
-	font-weight: 600;
+	font-weight: 500;
 	color: var(--white-color);
 }
 #online_section h4 {
@@ -358,7 +360,7 @@ p {
 #confidence_section h2 {
 	color: var(--white-color);
 	font-size: 40px;
-	font-weight: 600;
+	font-weight: 500;
 }
 #confidence_section p {
 	color: var(--white-color);
@@ -385,24 +387,24 @@ p {
 #fifth_section h2 {
 	font-size: 40px;
 	margin-bottom: 30px;
-	font-weight: 600;
+	font-weight: 500;
 }
 #fifth_section h5 span {
 	color: var(--second-color);
-	font-weight: 600;
+	font-weight: 500;
 }
 #fifth_section h4 {
-	font-weight: 600;
+	font-weight: 500;
 	margin-bottom: 30px;
 }
 #fifth_section a {
 	margin: 10px 0;
-	font-weight: 600;
+	font-weight: 500;
 	color: var(--first-color);
 }
 #fifth_section .accordion button {
 	color: var(--first-color);
-	font-weight: 600;
+	font-weight: 500;
 	padding: 0;
 }
 #fifth_section .accordion-button:focus {
@@ -428,12 +430,12 @@ p {
 #sixth_section h2 {
 	font-size: 40px;
 	margin-bottom: 30px;
-	font-weight: 600;
+	font-weight: 500;
 	color: var(--white-color);
 }
 #sixth_section h4 {
 	font-size: 22px;
-	font-weight: 600;
+	font-weight: 500;
 }
 #sixth_section img {
 	cursor: pointer;
@@ -489,19 +491,19 @@ p {
 }
 #blog_section h2 {
 	font-size: 40px;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 #blog_section .card a {
 	color: var(--white-color);
-	font-weight: 600;
+	font-weight: 500;
 }
 #blog_section .btn {
 	background: linear-gradient(rgb(255, 0, 0), rgb(255, 120, 42));
 	color: #ffffff;
 	padding: 10px 20px;
 	border: none;
-	font-weight: 600;
+	font-weight: 500;
 } 
 #blog_section .btn:hover {
 	background: linear-gradient( rgb(255, 120, 42), rgb(255, 0, 0));
@@ -557,7 +559,7 @@ p {
 #bred_items li {
 	display: inline-block;
 	padding: 0 20px;
-	font-weight: 600;
+	font-weight: 500;
 	color: var(--white-color);
 }
 
@@ -573,7 +575,7 @@ p {
 }
 #team_member h3 {
 	font-size: 40px;
-	font-weight: 600;
+	font-weight: 500;
 }
 #team_member img {
 	width: 100%;
@@ -581,11 +583,11 @@ p {
 
 #price_section h3 {
 	font-size: 40px;
-	font-weight: 600;
+	font-weight: 500;
 }
 #price_section .price {
 	font-size: 60px;
-	font-weight: 600;
+	font-weight: 500;
 }
 #price_section .btn {
 	background-color: var(--first-color);
@@ -670,7 +672,7 @@ p {
 	padding: 50px 0;
 }
 #service_forth h2 {
-	font-weight: 600;
+	font-weight: 500;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
@@ -711,7 +713,7 @@ p {
 }
 #offer_section span {
 	color: var(--first-color);
-	font-weight: 600;
+	font-weight: 500;
 }
 #offer_section img {
 	width: 100%;
@@ -746,7 +748,7 @@ p {
 }
 #device_top_section h3 {
 	font-size: 30px;
-	font-weight: 600;
+	font-weight: 500;
 }
 .device_first_section {
 	padding: 200px 0;
@@ -758,7 +760,7 @@ p {
 }
 .device_first_section h2 {
 	font-size: 60px;
-	font-weight: 600;
+	font-weight: 500;
 }
 .device_first_section p {
 	font-size: 25px;
@@ -773,7 +775,7 @@ p {
 }
 .device_second_section h2 {
 	font-size: 60px;
-	font-weight: 600;
+	font-weight: 500;
 }
 .device_second_section p {
 	font-size: 25px;
@@ -788,7 +790,7 @@ p {
 }
 .device_third_section h2 {
 	font-size: 50px;
-	font-weight: 600;
+	font-weight: 500;
 }
 .device_third_section p {
 	font-size: 25px;
@@ -803,7 +805,7 @@ p {
 }
 .device_forth_section h2 {
 	font-size: 60px;
-	font-weight: 600;
+	font-weight: 500;
 }
 .device_forth_section p {
 	font-size: 25px;
@@ -818,7 +820,7 @@ p {
 }
 .device_fifth_section h2 {
 	font-size: 60px;
-	font-weight: 600;
+	font-weight: 500;
 }
 .device_fifth_section p {
 	font-size: 25px;
@@ -896,6 +898,74 @@ p {
 	margin: 30px 0;
 }
 /* Review Section */
+
+
+/* Partner */
+
+#partner_bredcrumb {
+    padding: 80px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../image/partner/brad.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-top: 30px;
+}
+#partner_bredcrumb h1 {
+    color: var(--white-color);
+}
+#partner_bredcrumb p {
+    color: var(--white-color);
+}
+
+#partner_first {
+	padding: 30px 0;
+}
+#partner_first h2 {
+	font-size: 60px;
+}
+#partner_first .btn {
+	background-color: var(--first-color);
+	color: var(--white-color);
+}
+#partner_first img {
+	width: 100%;
+}
+#partner_second {
+	padding: 30px 0;
+}
+#partner_second img {
+	padding: 20px;
+	width: 100%;
+}
+#partner_second .partner_second_text {
+	position: sticky;
+	top: 80px;
+}
+#partner_second h3 {
+	font-size: 50px;
+}
+#partner_second .btn {
+	background-color: var(--first-color);
+	color: var(--white-color);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+	#partner_first h2 {
+		font-size: 30px;
+	}
+	#partner_second h3 {
+		font-size: 30px;
+	}
+	#partner_second img {
+		width: 250px;
+		height: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/* Partner */
 
 
 /* Gallery */
@@ -1022,7 +1092,7 @@ p {
 #contact_form_section .btn {
 	background-color: var(--first-color);
 	color: var(--white-color);
-	font-weight: 600;
+	font-weight: 500;
 }
 @media only screen and (min-width: 300px) and (max-width: 500px) {
 	#contact_person {
@@ -1052,7 +1122,7 @@ footer p {
 footer .btn {
 	background: linear-gradient(rgb(255, 0, 0), rgb(255, 120, 42));
 	color: #ffffff;
-	font-weight: 600;
+	font-weight: 500;
 }
 footer .btn:hover {
 	background: linear-gradient( rgb(255, 120, 42), rgb(255, 0, 0));
